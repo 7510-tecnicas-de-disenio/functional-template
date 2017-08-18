@@ -1,4 +1,4 @@
-# funcional-template
+# funcional-template [![Build Status](https://travis-ci.org/abrden/functional-template.svg?branch=master)](https://travis-ci.org/abrden/functional-template)
 
 A Clojure library designed to be used as a template for each exercise/tp used in Tecnicas de Diseño.
 
@@ -20,7 +20,11 @@ https://8thlight.com/blog/colin-jones/2010/11/26/a-leiningen-tutorial.html
 https://github.com/technomancy/leiningen
 
 ## Run Tests
-lein test
+```
+$ lein test
+```
 
 ## Run Repl
-lein repl
+```
+$lein repl
+```
