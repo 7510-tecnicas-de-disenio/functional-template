@@ -26,5 +26,5 @@ $ lein test
 
 ## Run Repl
 ```
-$lein repl
+$ lein repl
 ```
