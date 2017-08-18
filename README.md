@@ -2,6 +2,8 @@
 
 A Clojure library designed to be used as a template for each exercise/tp used in Tecnicas de Diseño.
 
+[![Build Status](https://travis-ci.org/mastanca/functional-template.svg?branch=develop)](https://travis-ci.org/mastanca/functional-template)
+
 ## Usage
 
 <Complete this section>
