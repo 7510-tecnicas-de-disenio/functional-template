@@ -1,3 +1,6 @@
+# Continuous Integration
+[![Build Status](https://travis-ci.org/ordonezf/functional-template.svg?branch=master)](https://travis-ci.org/ordonezf/functional-template)
+
 # funcional-template
 
 A Clojure library designed to be used as a template for each exercise/tp used in Tecnicas de Diseño.
