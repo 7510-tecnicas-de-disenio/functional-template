@@ -11,9 +11,9 @@
    (is (= (things [1 2 3]) "Soy un Vector"))))
 
 (deftest things-for-map
-  (testing "Returns the vector legend."
+  (testing "Returns the map legend."
    (is (= (things {:a 1 :b 2}) "Soy un Map"))))
 
 (deftest things-for-int
-  (testing "Returns the vector legend."
+  (testing "Returns the int legend."
    (is (= (things 1) "Soy un default"))))
