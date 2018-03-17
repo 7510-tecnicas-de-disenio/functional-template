@@ -15,7 +15,7 @@ Leiningen in your local computer.
 - Fork this repository to your own GitHub user (this will create a copy of this repository into your own GitHub's repositories):
     - Login to GitHub with your own user.
     - Navigate to this repository url.
-    - Click on the "Fork" button at the top-right of the page.
+    - Click on the "Fork" button at the top-right of the page. (Please, do not change the repository's name when forking)
  
 - Clone the forked repository in your local computer:
     - Click on the "Clone or Download" button in the forked repository's page and copy the url. It should be similar that the following one:
