@@ -36,7 +36,8 @@ your option) any later version.
 https://8thlight.com/blog/colin-jones/2010/11/26/a-leiningen-tutorial.html
 
 ## Install leiningen
-https://github.com/technomancy/leiningen
+<p>https://github.com/technomancy/leiningen</p>
+<p>https://gist.github.com/technomancy/2395913</p>
 
 ## Run Tests
 lein test
