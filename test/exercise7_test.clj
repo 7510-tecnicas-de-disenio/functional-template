@@ -2,14 +2,18 @@
   (:require [clojure.test :refer :all]
               [exercise7 :refer :all]))
 
-(deftest fmap-list
-  (testing "Maps values in a list."
-   (is (= (fmap inc (list 1 2 3)) (list 2 3 4)))))
-   
-(deftest fmap-vector
-  (testing "Maps values in a vector."
-   (is (= (fmap inc [1 2 3 4]) [2 3 4 5]))))
-			    
-(deftest fmap-map
-  (testing "Maps values in a map."
-   (is (= (fmap inc {:a 1 :b 2}) {:a 2 :b 3}))))
+(deftest flast-of-array-of-numbers
+  (testing "Returns the last element of an array of numbers."
+    (is (= (fnth 1 [1 2 3 4]) 2))))
+
+(deftest flast-of-a-list-of-numbers
+  (testing "Returns the nth element of a list of numbers."
+    (is (= (fnth 2 '(4 5 6 7)) 6))))
+
+(deftest flast-of-array-of-strings
+  (testing "Returns the nth element of an array of strings."
+    (is (= (fnth 0 [:a :b :c]) :a))))
+
+(deftest flast-of-a-list-of-strings
+  (testing "Returns the last element of a list."
+    (is (= (fnth 2 '([1 2] [3 4] [5 6])) [5 6]))))

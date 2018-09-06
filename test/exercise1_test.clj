@@ -13,3 +13,7 @@
 (deftest ten-minus-by-two-test-zero
   (testing "Tests with a value that makes the result zero."
     (is (= (ten-minus-by-two 5) 0))))
+
+(deftest ten-minus-by-two-test-three
+  (testing "Tests with a value that makes the result zero."
+    (is (= (ten-minus-by-two 3) 4))))
