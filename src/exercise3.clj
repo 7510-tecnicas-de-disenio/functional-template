@@ -1,11 +1,9 @@
 (ns exercise3)
 
-(defn fibonacci
+(defn fibonacci [x]
   "Calculates the fibonacci result fo the given input value."
-  [x]
-  (throw (Exception. "Not implemented."))
+  (if (< x 2) 
+  x
+  (+ (fibonacci(- x 1)) (fibonacci(- x 2)))
+  )
 )
-
-
-
-
