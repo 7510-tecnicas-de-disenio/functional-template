@@ -1,17 +1,20 @@
 (ns exercise8)
 
-(defn squear 
+(defn squear
   "Returns the squear of a given number"
   [x]
-  (throw (Exception. "Not implemented."))
+  (* x x)
 )
 
 (defn fderive
   "Returns a function that approximates the derive of f with error h in the value given to the returned function."
   [f h]
-  (throw (Exception. "Not implemented."))
+  (fn [x]
+    (/
+      (- (f (+ x h)) (f (- x h)))
+      (* 2 h)
+    )
+  )
+
+
 )
-
-
-
-
