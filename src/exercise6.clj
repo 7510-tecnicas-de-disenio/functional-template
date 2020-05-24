@@ -3,9 +3,5 @@
 (defn faverage
   "Calculates the average of a given sequence."
   [x]
-  (throw (Exception. "Not implemented."))
+  (/ (reduce + x) (count x) )
 )
-
-
-
-
