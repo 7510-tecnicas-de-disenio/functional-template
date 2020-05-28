@@ -1,18 +1,17 @@
 (ns exercise10)
 
 (defn open-account []
-  (throw (Exception. "Not implemented."))
+  (hash-map :balance 0)
 )
 
 (defn close-account [account]
-  (throw (Exception. "Not implemented."))
+  (dissoc account :balance)
 )
 
 (defn get-balance [account]
-  (throw (Exception. "Not implemented."))
+  (get account :balance)
 )
 
 (defn update-balance [account amount]
-  (throw (Exception. "Not implemented."))
+  (update account :balance + amount)
 )
-
