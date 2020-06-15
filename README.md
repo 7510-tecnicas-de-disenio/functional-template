@@ -44,3 +44,6 @@ lein test
 
 ## Run Repl
 lein repl
+
+## Run dockerfile with bash script
+`./run.sh`
