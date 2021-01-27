@@ -7,7 +7,7 @@
 )
 
 (defn fderivative
-  "Returns a function that approximates the derivative of f with error h in the value given to the returned function."
+  "Returns a function that approximates the derivative of f with step h in the value given to the returned function."
   [f h]
   (throw (Exception. "Not implemented."))
 )
